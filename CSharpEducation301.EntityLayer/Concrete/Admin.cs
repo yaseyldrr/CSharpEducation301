@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpEducation301.EntityLayer
+namespace CSharpEducation301.EntityLayer.Concrete
 {
     public class Admin
     {
