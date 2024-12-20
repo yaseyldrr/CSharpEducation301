@@ -17,8 +17,8 @@ namespace CSharpEducation301.EFProject
         public int LocationId { get; set; }
         public string LocationCity { get; set; }
         public string LocationCountry { get; set; }
-        public Nullable<decimal> LocationCapacity { get; set; }
-        public string LocationPrice { get; set; }
+        public Nullable<int> LocationCapacity { get; set; }
+        public Nullable<decimal> LocationPrice { get; set; }
         public string DayNight { get; set; }
         public Nullable<int> GuideId { get; set; }
     
