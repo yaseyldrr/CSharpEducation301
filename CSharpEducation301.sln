@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEducation301.Business
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1.PresentationLayer", "WindowsFormsApp1.PresentationLayer\WindowsFormsApp1.PresentationLayer.csproj", "{187CD382-5B51-493B-B481-09B67B0FF964}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEducation301.EFProject", "CSharpEducation301.EFProject\CSharpEducation301.EFProject.csproj", "{EDF0E76B-AC82-4441-B8EC-B97057B48667}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{187CD382-5B51-493B-B481-09B67B0FF964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{187CD382-5B51-493B-B481-09B67B0FF964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{187CD382-5B51-493B-B481-09B67B0FF964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF0E76B-AC82-4441-B8EC-B97057B48667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF0E76B-AC82-4441-B8EC-B97057B48667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF0E76B-AC82-4441-B8EC-B97057B48667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF0E76B-AC82-4441-B8EC-B97057B48667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
