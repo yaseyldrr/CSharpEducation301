@@ -56,14 +56,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -91,6 +94,14 @@
     <ProjectReference Include="..\CSharpEducation301.BusinessLayer\CSharpEducation301.BusinessLayer.csproj">
       <Project>{7a0995e4-9c3c-4e50-815e-f5ba45b8cd5d}</Project>
       <Name>CSharpEducation301.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEducation301.DataAccessLayer\CSharpEducation301.DataAccessLayer.csproj">
+      <Project>{b881bbc9-0f92-46ba-8abc-701ab5ba305a}</Project>
+      <Name>CSharpEducation301.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEducation301.EntityLayer\CSharpEducation301.EntityLayer.csproj">
+      <Project>{4e33ef86-8b87-4779-9442-aef41041208f}</Project>
+      <Name>CSharpEducation301.EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
