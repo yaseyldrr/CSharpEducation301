@@ -26,7 +26,7 @@ namespace CSharpEducation301.EntityLayer.Concrete
          */
 
         // Primary Key olduğunu bu şekilde belirtiriz, isim aynı ve sonda Id kelimesi var.
-        public string CategoryId { get; set; }
+        public int CategoryId { get; set; }
         public string CategoryName { get; set; }
         public bool CategoryStatus { get; set; }
 
